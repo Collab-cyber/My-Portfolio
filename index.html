@@ -1,274 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jean | Portfolio</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jean Neekee Gabuat — Virtual Assistant &amp; Admin Support</title>
+<meta name="description" content="Jean Neekee Gabuat — Virtual Assistant, Data Entry Specialist, and Admin Assistant. Computer Science student based in the Philippines, available for part-time remote work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
+<div class="bg-glow" aria-hidden="true"></div>
 
-    <div class="logo">
-        Jean<span>.</span>
-    </div>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#contact">Contact</a>
+<!-- ===== NAV ===== -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">Jean<span>.</span></a>
+    <nav class="nav__links" aria-label="Section navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
     </nav>
-
+    <a href="assets/Jean-Neekee-Gabuat-Resume.pdf" class="nav__cta">Resume</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav__mobile" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/Jean-Neekee-Gabuat-Resume.pdf">Resume</a>
+  </nav>
 </header>
 
-<section class="hero" id="home">
+<main>
 
-    <div class="hero-text">
-
-        <h3>Hello, I'm</h3>
-
-        <h1>Jean Neekee Gabuat</h1>
-
-        <h2>
-            Virtual Assistant | Data Entry Specialist | Admin Assistant
-        </h2>
-
-        <p>
-            I help businesses stay organized through virtual assistance, accurate data entry, and administrative support. 
-            As a Computer Science student, I continuously improve my technical and problem-solving skills to deliver reliable, high-quality work.
-        </p>
-
-    <div class="hero-buttons">
-    <a href="#projects" class="btn">
-        View My Projects
-    </a>
-
-    <a href="assets/Jean-Neekee-Gabuat-Resume.pdf"
-       class="btn btn-outline"
-       target="_blank">
-        Download Resume
-    </a>
-</div>
-
-</div>
-
-<div class="hero-image">
-    <img src="images/profile.jpg" alt="Profile">
-</div>
-</section>
-
-<section id="about">
-
-    <h2>About Me</h2>
-
-    <p>
-        Hello! I'm <strong>Jean Neekee Gabuat</strong>, a Bachelor of Science in Computer Science student from the Philippines and a TESDA NC II Certified Computer Systems Servicing graduate.
-    </p>
-
-    <p>
-        I am passionate about helping businesses stay organized through virtual assistance, data entry, administrative support, internet research, and document management. I am proficient in Microsoft Office, Google Workspace, Canva, and continuously improving my skills in HTML, CSS, JavaScript, Git, and GitHub.
-    </p>
-
-    <p>
-        I am a fast learner, detail-oriented, and committed to delivering accurate, high-quality work. I value professionalism, clear communication, and meeting deadlines while continuously learning new skills. My goal is to become a dependable Virtual Assistant and build a successful career in the digital industry.
-    </p>
-
-    <div class="about-cards">
-
-        <div class="about-card">
-            <h3>🎓 Education</h3>
-            <p>Bachelor of Science in Computer Science</p>
-        </div>
-
-        <div class="about-card">
-            <h3>🏆 Certification</h3>
-            <p>TESDA NC II - Computer Systems Servicing</p>
-        </div>
-
-        <div class="about-card">
-            <h3>💻 Technical Skills</h3>
-            <p>HTML, CSS, JavaScript, GitHub, Microsoft Office, Google Workspace, Canva</p>
-        </div>
-
-        <div class="about-card">
-            <h3>🎯 Career Goal</h3>
-            <p>To provide reliable virtual assistance while continuously growing my technical skills and delivering excellent service to clients.</p>
-        </div>
-
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__copy reveal">
+      <p class="eyebrow">Available for part-time, remote work</p>
+      <h1 class="h1">Jean Neekee Gabuat</h1>
+      <p class="role">Virtual Assistant <span class="sep">/</span> Data Entry Specialist <span class="sep">/</span> Admin Support</p>
+      <p class="lede">I help businesses run smoother — organized inboxes, accurate records, and administrative work done right the first time. Backed by a Computer Science background, so the technical side of the job is never a bottleneck.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="assets/Jean-Neekee-Gabuat-Resume.pdf" class="btn btn--outline">Download Resume</a>
+      </div>
+      <div class="hero__badges">
+        <span class="badge">TESDA NC II Certified</span>
+        <span class="badge">BS Computer Science</span>
+      </div>
     </div>
 
-</section>
+    <div class="hero__portrait reveal reveal--delay">
+      <div class="portrait-ring">
+        <img src="images/profile.jpg" alt="Portrait of Jean Neekee Gabuat">
+      </div>
+      <div class="hero__floatcard hero__floatcard--top">
+        <span class="dot dot--live"></span> Open to work
+      </div>
+      <div class="hero__floatcard hero__floatcard--bottom">
+        📍 Philippines
+      </div>
+    </div>
+  </section>
 
-<section id="skills">
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <p class="eyebrow reveal">Who I Am</p>
+    <h2 class="h2 reveal">About Me</h2>
 
-    <h2>Skills</h2>
+    <div class="about reveal">
+      <p class="about__intro">
+        I'm a detail-first Virtual Assistant and Computer Science student who treats "small" administrative work as the thing that actually keeps a business running. I don't just complete tasks — I organize the system around them, so nothing gets missed twice.
+      </p>
 
-    <div class="skills">
-
-        <div class="skill-card">
-            <h3>💻 HTML</h3>
-            <p>Building clean and responsive web page structures.</p>
+      <div class="about__grid">
+        <div class="about__card">
+          <p class="about__label">Education</p>
+          <p class="about__value">Bachelor of Science in Computer Science</p>
         </div>
-
-        <div class="skill-card">
-            <h3>🎨 CSS</h3>
-            <p>Creating modern, responsive, and attractive website designs.</p>
+        <div class="about__card">
+          <p class="about__label">Certification</p>
+          <p class="about__value">TESDA NC II — Computer Systems Servicing</p>
         </div>
-
-        <div class="skill-card">
-            <h3>⚡JavaScript</h3>
-            <p>Adding interactivity and dynamic features to websites.</p>
+        <div class="about__card about__card--wide">
+          <p class="about__label">Career Goal</p>
+          <p class="about__value">To become a dependable Virtual Assistant and build a lasting career in the digital industry — delivering accurate, professional support to clients I can grow with long-term.</p>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="skill-card">
-            <h3>🐙 Git & GitHub</h3>
-            <p>Managing projects and version control using Git.</p>
-        </div>
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <p class="eyebrow reveal">What I Bring</p>
+    <h2 class="h2 reveal">Skills</h2>
+    <p class="section-intro reveal">Grouped by the kind of work they support — not just a list.</p>
 
-        <div class="skill-card">
-            <h3>📊 Microsoft Office</h3>
-            <p>Creating documents, spreadsheets, and presentations efficiently.</p>
-        </div>
+    <div class="skills-grid">
 
-        <div class="skill-card">
-            <h3>🎨 Canva</h3>
-            <p>Designing simple and professional graphics for digital content.</p>
-        </div>
+      <div class="skill-card reveal">
+        <p class="skill-card__icon">💼</p>
+        <h3 class="skill-card__title">Administrative</h3>
+        <ul class="skill-bars">
+          <li><div class="skill-bar__head"><span>Microsoft Office</span><span>95%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="95"></div></div></li>
+          <li><div class="skill-bar__head"><span>Google Workspace</span><span>95%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="95"></div></div></li>
+          <li><div class="skill-bar__head"><span>File Organization</span><span>90%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="90"></div></div></li>
+        </ul>
+      </div>
 
-        <div class="skill-card">
-             <h3>☁️ Google Workspace</h3>
-             <p>Using Google Docs, Sheets, Drive, and other collaboration tools efficiently.</p>
-        </div>
+      <div class="skill-card reveal">
+        <p class="skill-card__icon">📊</p>
+        <h3 class="skill-card__title">Data Entry</h3>
+        <ul class="skill-bars">
+          <li><div class="skill-bar__head"><span>Spreadsheet Management</span><span>90%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="90"></div></div></li>
+          <li><div class="skill-bar__head"><span>Accuracy &amp; QA Checks</span><span>90%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="90"></div></div></li>
+          <li><div class="skill-bar__head"><span>Internet Research</span><span>85%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="85"></div></div></li>
+        </ul>
+      </div>
 
-        <div class="skill-card">
-             <h3>📄 Google Docs</h3>
-             <p>Creating, editing, and formatting professional documents for collaboration.</p>
-        </div>
+      <div class="skill-card reveal">
+        <p class="skill-card__icon">🖥️</p>
+        <h3 class="skill-card__title">Technical</h3>
+        <ul class="skill-bars">
+          <li><div class="skill-bar__head"><span>HTML &amp; CSS</span><span>80%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="80"></div></div></li>
+          <li><div class="skill-bar__head"><span>JavaScript</span><span>65%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="65"></div></div></li>
+          <li><div class="skill-bar__head"><span>Git &amp; GitHub</span><span>65%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="65"></div></div></li>
+        </ul>
+      </div>
 
-        <div class="skill-card">
-             <h3>📈 Google Sheets</h3>
-             <p>Organizing data, managing spreadsheets, and performing basic data analysis.</p>
-        </div>
+      <div class="skill-card reveal">
+        <p class="skill-card__icon">🎨</p>
+        <h3 class="skill-card__title">Design</h3>
+        <ul class="skill-bars">
+          <li><div class="skill-bar__head"><span>Canva</span><span>85%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="85"></div></div></li>
+          <li><div class="skill-bar__head"><span>Document Formatting</span><span>85%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="85"></div></div></li>
+        </ul>
+      </div>
 
-        <div class="skill-card">
-             <h3>📁 Google Drive</h3>
-             <p>Managing, organizing, and securely sharing files through cloud storage.</p>
-        </div>
-
-        <div class="skill-card">
-             <h3>🔍 Internet Research</h3>
-             <p>Finding accurate information and organizing research efficiently.</p>
-        </div>
-
-        <div class="skill-card">
-             <h3>💬 Chat Support</h3>
-             <p>Providing professional and friendly customer communication through chat.</p>
-        </div>
+      <div class="skill-card reveal">
+        <p class="skill-card__icon">📧</p>
+        <h3 class="skill-card__title">Communication</h3>
+        <ul class="skill-bars">
+          <li><div class="skill-bar__head"><span>Chat Support</span><span>85%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="85"></div></div></li>
+          <li><div class="skill-bar__head"><span>Email Etiquette</span><span>85%</span></div><div class="skill-bar"><div class="skill-bar__fill" data-fill="85"></div></div></li>
+        </ul>
+      </div>
 
     </div>
+  </section>
 
-</section>
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <p class="eyebrow reveal">Selected Work</p>
+    <h2 class="h2 reveal">Projects</h2>
+    <p class="section-intro reveal">A mix of practice builds and client-ready tools.</p>
 
-<section id="projects">
+    <div class="projects-grid">
 
-    <h2>Projects</h2>
-
-    <div class="project-card">
-
-        <h3>💼 Personal Portfolio Website</h3>
-
-        <p>
-            A responsive personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, background, and projects while providing an easy way for potential clients and employers to learn more about me.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="https://github.com/Collab-cyber/My-Portfolio"
-               class="btn"
-               target="_blank">
-                GitHub
-            </a>
-
-            <a href="#"
-               class="btn btn-outline">
-                Live Demo
-            </a>
-
+      <article class="project-card reveal">
+        <div class="project-card__preview" style="--from:#1b2a4a; --to:#0e1729;">🌤️</div>
+        <div class="project-card__body">
+          <h3>Smart Travel Packing Dashboard</h3>
+          <p>A planning tool that generates a packing checklist based on trip length, destination weather, and trip type — built to cut down pre-trip decision fatigue.</p>
+          <div class="tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-card__links">
+            <span class="btn btn--soon">Coming Soon</span>
+          </div>
         </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__preview" style="--from:#20304f; --to:#0e1729;">✅</div>
+        <div class="project-card__body">
+          <h3>Smart Task Board</h3>
+          <p>A lightweight kanban-style board for organizing daily admin tasks by status — built to mirror how a VA actually tracks client work day to day.</p>
+          <div class="tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-card__links">
+            <span class="btn btn--soon">Coming Soon</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__preview" style="--from:#26314d; --to:#0e1729;">💰</div>
+        <div class="project-card__body">
+          <h3>1-Year Savings Template</h3>
+          <p>A Google Sheets template for tracking monthly savings goals against actuals, with automatic running totals — the kind of tool I'd build for a client's own finances.</p>
+          <div class="tools">
+            <span>Google Sheets</span><span>Formulas</span>
+          </div>
+          <div class="project-card__links">
+            <span class="btn btn--soon">Coming Soon</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card__preview" style="--from:#2b3a52; --to:#0e1729;">💻</div>
+        <div class="project-card__body">
+          <h3>Personal Portfolio Website</h3>
+          <p>This site — a responsive portfolio built with HTML, CSS, and JavaScript to showcase my skills, background, and projects to potential clients.</p>
+          <div class="tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/Collab-cyber/My-Portfolio" class="btn btn--soon btn--active" target="_blank" rel="noopener">View Project ↗</a>
+          </div>
+        </div>
+      </article>
 
     </div>
+  </section>
 
-</section>
+  <!-- ===== CERTIFICATES ===== -->
+  <section class="section" id="certificates">
+    <p class="eyebrow reveal">Credentials</p>
+    <h2 class="h2 reveal">Certificates</h2>
 
-<section id="certificates">
-
-    <h2>Certificates</h2>
-
-    <div class="about-cards">
-
-        <div class="about-card">
-            <h3>🏆 TESDA NC II</h3>
-            <p>Computer Systems Servicing (CSS NC II)</p>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-card__top">
+          <span class="cert-card__icon">🏆</span>
+          <span class="cert-card__year">2025</span>
         </div>
+        <h3>Computer Systems Servicing</h3>
+        <p class="cert-card__issuer">TESDA — NC II</p>
+        <a href="assets/" class="btn btn--outline btn--sm">View Certificate</a>
+      </div>
 
-        <div class="about-card">
-            <h3>📚 More Certificates</h3>
-            <p>More certifications will be added as I continue learning and developing my skills.</p>
+      <div class="cert-card cert-card--pending reveal">
+        <div class="cert-card__top">
+          <span class="cert-card__icon">📚</span>
+          <span class="cert-card__year">Upcoming</span>
         </div>
-
+        <h3>Reserved</h3>
+        <p class="cert-card__issuer">More certifications added as I complete them</p>
+      </div>
     </div>
+  </section>
 
-</section>
+  <!-- ===== EXPERIENCE / WHAT I CAN DO ===== -->
+  <section class="section" id="experience">
+    <p class="eyebrow reveal">Capabilities</p>
+    <h2 class="h2 reveal">What I Can Do</h2>
+    <p class="section-intro reveal">No formal VA placement yet — here's exactly what I'm ready to take on from day one.</p>
 
-<section id="contact">
-
-    <h2>Contact Me</h2>
-
-    <div class="about-cards">
-
-        <div class="about-card">
-            <h3>📧 Email</h3>
-            <p>jeanneekeegabuat@gmail.com</p>
-        </div>
-
-        <div class="about-card">
-            <h3>🐙 GitHub</h3>
-            <p>github.com/Collab-cyber</p>
-        </div>
-
-        <div class="about-card">
-            <h3>💼 Career Goal</h3>
-            <p>Open to part-time remote opportunities as a Virtual Assistant, Data Entry Specialist, or Admin Assistant.</p>
-        </div>
-
+    <div class="capabilities-grid">
+      <div class="cap reveal"><span>📝</span>Data Entry</div>
+      <div class="cap reveal"><span>🔍</span>Internet Research</div>
+      <div class="cap reveal"><span>📊</span>Spreadsheet Management</div>
+      <div class="cap reveal"><span>📄</span>Document Formatting</div>
+      <div class="cap reveal"><span>🎨</span>Canva Design</div>
+      <div class="cap reveal"><span>🗂️</span>Administrative Support</div>
+      <div class="cap reveal"><span>📁</span>File Organization</div>
+      <div class="cap reveal"><span>💬</span>Chat &amp; Email Support</div>
     </div>
+  </section>
 
-</section>
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <p class="eyebrow reveal">Let's Work Together</p>
+    <h2 class="h2 reveal">Contact</h2>
 
-<footer>
+    <div class="contact-wrap reveal">
+      <div class="contact-info">
+        <span class="badge badge--status">🟢 Available for Part-Time Opportunities</span>
+        <p class="contact-lede">Open to remote work as a Virtual Assistant, Data Entry Specialist, or Admin Assistant. Send a message and I'll reply within a day.</p>
 
-    <p>
-        © 2026 Jean Neekee Gabuat. All Rights Reserved.
-    </p>
+        <div class="contact-links">
+          <a href="mailto:jeanneekeegabuat@gmail.com" class="contact-link">
+            <span class="contact-link__k">Email</span>
+            <span class="contact-link__v">jeanneekeegabuat@gmail.com</span>
+          </a>
+          <a href="https://github.com/Collab-cyber" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link__k">GitHub</span>
+            <span class="contact-link__v">github.com/Collab-cyber</span>
+          </a>
+          <a href="#top" class="contact-link">
+            <span class="contact-link__k">Portfolio</span>
+            <span class="contact-link__v">my-portfolio-zcxs.vercel.app</span>
+          </a>
+        </div>
+      </div>
 
-    <p>
-        Built with ❤️ using HTML, CSS, JavaScript, GitHub & Vercel.
-    </p>
+      <form class="contact-form" id="contactForm">
+        <label>
+          Name
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required placeholder="Tell me about the work you need help with..."></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        <p class="contact-form__note">Opens your email app with this message ready to send.</p>
+      </form>
+    </div>
+  </section>
 
+</main>
+
+<footer class="footer">
+  <p>© 2026 Jean Neekee Gabuat. All rights reserved.</p>
+  <p>Built with HTML, CSS &amp; JavaScript — hosted on Vercel.</p>
 </footer>
 
 <script src="js/script.js"></script>
-
 </body>
 </html>
