@@ -16,7 +16,7 @@ I'm a Bachelor of Science in Computer Science student from the Philippines and a
 
 ## Sections
 
-- **Hero** — introduction, resume download, availability status
+- **Hero** — introduction, resume view, availability status
 - **About** — education, certification, and career goal
 - **Skills** — organized by category (Administrative, Data Entry, Technical, Design, Communication) with proficiency indicators
 - **Projects** — featured work with tools used and links
